@@ -1,0 +1,71 @@
+#accessibility-toggle {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    background-color: red !important;
+    color: white !important;
+    font-size: 24px !important;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100000;
+    border-radius: 3px !important;
+    margin: 0 !important;
+}
+
+#accessibility-menu {
+    font-family: Arial, sans-serif !important;
+    display: none;
+    position: fixed;
+    bottom: 75px;
+    left: 0;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #502e86 !important;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    z-index: 99999;
+    font-size: 14px !important;
+    width: 250px;
+    overflow-x: hidden;
+}
+
+#accessibility-menu h2 {
+    margin-top: 0;
+    color: darkslategray !important;
+    font-size: 18px !important;
+}
+
+#accessibility-menu ul {
+    list-style: none !important;
+    padding: 0 !important;
+}
+
+#accessibility-menu li {
+    margin: 10px 0 !important;
+}
+
+#accessibility-menu button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #000 !important;
+    transition: background-color 0.3s, color 0.3s !important;
+}
+
+#accessibility-menu button:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+#accessibility-menu input[type="range"] {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-right: 0;
+}
+
+#accessibility-menu .reset-button {
+    font-weight: bold !important;
+}
